@@ -32,7 +32,7 @@ void* calculation(void *p){
 }
 void main(){
     //initializing the mutex lock
-    pthread_mutex_init(&restore, NULL);
+    pthread_mutex_init(&lock, NULL);
 
     //taking the number of threads and iterations as input
     int numThread, iteration;
